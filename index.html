@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/plugins/Font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>resturant</title>
+</head>
+
+<body>
+
+    <!-- nav  -->
+    <nav class="top-nav" id="topNav">
+        <div class="container">
+            <a href="#" class="logo-aria">
+                <img src="logo.png" />
+            </a>
+            <div class="menu-aria">
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="nav-assest">
+                    <a href="javascript:void(0);" class="mobile-menu-btn" onclick="showMobileNav()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav  -->
+
+    <section class="categories">
+        <div class="container">
+            <div class="d-flex tab-con">
+                <!-- vertical tabs -->
+                <div class="nav flex-column" id="Tabs" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active btn-primary" id="vtab1" data-bs-toggle="pill" data-bs-target="#tab1"
+                        type="button" role="tab" aria-controls="tab1" aria-selected="true">وجبات</button>
+                    <button class="nav-link btn-primary" id="vtab2" data-bs-toggle="pill" data-bs-target="#tab2" type="button"
+                        role="tab" aria-controls="tab2" aria-selected="false">سندويش</button>
+                    <button class="nav-link btn-primary" id="vtab3" data-bs-toggle="pill" data-bs-target="#tab3" type="button"
+                        role="tab" aria-controls="tab3" aria-selected="false">مشروبات</button>
+                        <button class="nav-link btn-primary" id="vtab4" data-bs-toggle="pill" data-bs-target="#tab4" type="button"
+                        role="tab" aria-controls="tab4" aria-selected="false">مقبلات</button>
+                </div>
+                <!-- End vertical tabs -->
+                <div class="tab-content" id="vtabContent">
+                    <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="vtab1">
+                        <div class="row">
+                            <div class="col-md">
+                                <!-- Swiper -->
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/1.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/2.png" />
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/1.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/2.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="img col-md"><img src="assest/img/im2.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="vtab2">
+                        <div class="row">
+                            <div class="col-md col-12">
+                                <!-- Swiper -->
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/1.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/2.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/1.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/2.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="img col-md"><img src="assest/img/im2.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="vtab3">
+                        <div class="row">
+                            <div class="col-md">
+                                <!-- Swiper -->
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/1.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/2.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/1.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/2.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="img col-md"><img src="assest/img/im2.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="vtab4">
+                        <div class="row">
+                            <div class="col-md">
+                                <!-- Swiper -->
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/1.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/2.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/1.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/img/2.png" />
+                                            <div class="slide-rate"><i class="fas fa-heart"></i></div>
+                                            <div class="slide-info">
+                                                <h3>Lemon Juice</h3>
+                                                <span>25$</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="img col-md"><img src="assest/img/im2.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end tabs -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
